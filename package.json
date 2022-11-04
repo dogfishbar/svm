@@ -1,0 +1,36 @@
+{
+  "name": "CSCI-1103-CS1-Honors",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://dogfishbar.github.io/svm",
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "bootswatch": "^3.3.7",
+    "brace": "^0.10.0",
+    "dynatable": "0.0.5",
+    "gh-pages": "^1.0.0",
+    "jquery": "^3.5.1",
+    "nw-react-slider": "^2.0.1",
+    "react": "^15.7.0",
+    "react-ace": "^5.2.0",
+    "react-bootstrap": "^0.30.10",
+    "react-bootstrap-columns": "^0.1.3",
+    "react-center": "^1.1.1",
+    "react-dom": "^15.5.4",
+    "react-dropzone": "^4.1.3",
+    "react-file-reader": "^1.1.2",
+    "react-rangeslider": "^2.2.0",
+    "react-timeout": "^1.0.1"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

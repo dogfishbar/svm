@@ -1,0 +1,149 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: blue;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.myMarker {
+  position:absolute;
+  background: red;
+  z-index:20
+}
+.regDisplay {
+   border:0px solid red;
+   background-color: inherit;
+   padding:10px;
+   width:360px;
+   max-width: 420px;
+   overflow:hidden;
+}
+
+
+.memDisplay {
+   border:1px solid blueqas d;
+   background-color: inherit;
+   padding:10px;
+   width:360px;
+   max-width: 420px;
+   overflow:hidden;
+}
+
+
+.left {
+  float:left;
+  width:169px;
+  max-width: 190px;
+}
+.right {
+    float:right;
+    width:180px;
+    max-width: 200px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.navbar-custom{
+
+    background-color: black;
+    border-color: black;
+}
+
+.header {
+  background-color: #9F9F9F;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.parent {
+  border : 5px solid lightcoral;
+}
+
+
+
+.register {
+  border:2px solid black;
+  padding:10px;
+  width: 150px;
+  background-color: #9F9F9F;
+  border-radius: 25px;
+  word-wrap: break-word;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #FFFFFF;
+}
+
+.papaBear{
+  background-color: white;
+}
+
+.navbar {
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+
+.instruction {
+  border:2px solid black;
+  padding:10px;
+  width: 150px;
+  background-color: #9F9F9F;
+  border-radius: 25px;
+  word-wrap: break-word;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #FFFFFF;
+}
+
+.addr {
+  border:1px solid black;
+  padding:5px;
+  width: 75px;
+  background-color: #FFFFFF;
+  word-wrap: break-word;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #9F9F9F;
+}
+
+.value {
+  border:1px solid black;
+  padding:5px;
+  width: 75px;
+  background-color: #FFFFFF;
+  word-wrap: break-word;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #9F9F9F;
+}
+
+
+
+
+/***                Flex Stuf       ***/
+
+.parent {display: flex}
